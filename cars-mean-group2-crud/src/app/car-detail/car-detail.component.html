@@ -1,0 +1,28 @@
+
+<div class="button-row">
+  <a mat-raised-button color="primary" [routerLink]="['/cars']"><mat-icon>list</mat-icon></a>
+</div>
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title><h2>{{car.carModel}}</h2></mat-card-title>
+    <mat-card-subtitle>{{car.description}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <dl>
+      <dt>Company Name:</dt>
+      <dd>{{car.companyName}}</dd>
+      <dt>Color:</dt>
+      <dd>{{car.color}}</dd>
+      <dt>Price:</dt>
+      <dd>{{car.price}}</dd>
+      <dt>Release Year:</dt>
+      <dd>{{car.releaseYear}}</dd>
+      <dt>Update Date:</dt>
+      <dd>{{car.updated_date | date}}</dd>
+    </dl>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-raised-button color="primary" [routerLink]="['/car-edit', car._id]"><mat-icon>edit</mat-icon></a>
+    <a mat-raised-button color="warn" (click)="deleteCar(car._id)"><mat-icon>delete</mat-icon></a>
+  </mat-card-actions>
+</mat-card>

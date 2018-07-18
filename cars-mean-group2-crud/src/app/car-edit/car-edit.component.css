@@ -1,0 +1,60 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.example-full-width:nth-last-child() {
+  margin-bottom: 10px;
+}
+
+.button-row {
+  margin: 10px 0;
+}
+.example-form {
+  width: 100%;
+  color:white;
+  
+  
+  
+}
+.formbox
+{
+  margin-left: 100px;
+  border:1px solid white
+}
+
+.example-full-width {
+  width:1000px;
+  background-color:white;
+  text-align: center;
+  color:black;
+  margin-left: 90px;
+  
+   
+
+
+}
+h1{
+  color: whitesmoke;
+  text-align: center;
+ 
+}
+
+
+
+
+.button-row {
+  margin: 10px 0;
+  background:transparent;
+  border-radius: 20px;
+}
+
+button{
+  align-self: center;
+}
+

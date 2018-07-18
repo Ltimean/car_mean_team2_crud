@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{ 
+   
+     margin: 50px;
+background-image: url(assets/img6.jpg);
+
+
+}
+h1{
+    color:white;
+    
+    font-size:50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1:hover{
+    color:black;
+    -webkit-text-stroke: 1px white;
+    color: white;
+    text-shadow:
+        3px 3px 0 #000,
+      5px 5px 0 #000,  
+       1px 5px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-size:50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mat-fab.mat-primary,
+ .mat-flat-button.mat-primary,
+  .mat-mini-fab.mat-primary, 
+  .mat-raised-button.mat-primary
+   {
+    background-color: black;
+}
